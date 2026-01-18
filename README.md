@@ -87,7 +87,11 @@ The dashboard is designed for inventory managers and business users to monitor s
 DA-python-driven-database-ui-SQL/
 │
 ├── app.py # Streamlit application
+
 ├── database.sql # SQL schema & sample data
+
 ├── requirements.txt # Project dependencies
+
 ├── README.md # Project documentation
+
 └── assets/ # Images & screenshots
