@@ -97,28 +97,22 @@ DA-python-driven-database-ui-SQL/
 
 └── assets/ # Images & screenshots
 
-📈 Learning Outcomes
+## 📈 Learning Outcomes
 
-Python–SQL integration
+- Python–SQL integration  
+- Real-time dashboard development  
+- SQL analytics & query optimization  
+- Inventory management logic  
+- Business-focused data visualization  
 
-Real-time dashboard development
+---
 
-SQL analytics & query optimization
-
-Inventory management logic
-
-Business-focused data visualization
-
-💼 Resume Value
+## 💼 Resume Value
 
 This project demonstrates:
 
-End-to-end data application development
-
-Strong SQL & database skills
-
-Python-driven UI design
-
-Inventory & supply chain analytics
-
-Real-world business problem solving
+- End-to-end data application development  
+- Strong SQL & database skills  
+- Python-driven UI design  
+- Inventory & supply chain analytics  
+- Real-world business problem solving  
