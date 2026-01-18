@@ -1,126 +1,146 @@
-# 📦 Inventory & Supply Chain Dashboard  
-**DA-python-driven-database-ui-SQL**
-
-A Python-driven, database-powered Inventory and Supply Chain Management Dashboard built using **Streamlit** and **MySQL**.  
-This project provides real-time insights into inventory metrics, supplier details, stock levels, and operational tasks through an interactive UI.
+# 📄 Product Requirements Document (PRD)  
+## Inventory & Supply Chain Dashboard  
+**Project Name:** DA-python-driven-database-ui-SQL
 
 ---
 
-## 🚀 Project Overview
+## 1. 📌 Purpose
 
-This project demonstrates how Python can be used to build an end-to-end **data-driven web application** that connects directly to a SQL database and performs live analytics and operations.  
-The dashboard is designed for inventory managers and business users to monitor stock health, supplier relationships, and reorder requirements efficiently.
+The purpose of this product is to design and develop a **Python-driven Inventory and Supply Chain Management Dashboard** that connects directly to a SQL database and provides real-time insights, monitoring, and operational controls through an interactive Streamlit UI.
 
----
-
-## 🎯 Key Objectives
-
-- Build an interactive UI using **Streamlit**
-- Connect Python with a **MySQL database**
-- Display real-time inventory and supply chain metrics
-- Perform CRUD operations directly from the UI
-- Identify products that require immediate reordering
-- Showcase practical data analytics and database skills
+This system is intended to help businesses and inventory managers track stock levels, suppliers, sales, restocking activity, and reorder needs efficiently.
 
 ---
 
-## 🧠 Features
+## 2. 🎯 Goals & Objectives
 
-### 📊 Inventory & Supply Chain Dashboard
-- Total Suppliers
-- Total Products
-- Total Categories Dealing
-- Total Sales Value (Last 3 Months)
-- Total Restock Value (Last 3 Months)
-- Products Needing Reorder (Low Stock Alerts)
-
-### 🏢 Supplier Management
-- Supplier contact details
-- Email and phone information
-- City and supplier mapping
-
-### 📦 Product & Stock Monitoring
-- Product-wise stock quantity
-- Minimum stock threshold
-- Supplier-product mapping
-
-### ⚙️ Operational Tasks (UI Driven)
-- Add new products
-- Place reorder requests
-- Receive stock updates
-- View product history
-- Category-based product entry
+- Provide real-time visibility into inventory and supply chain data  
+- Enable data-driven decision-making for stock replenishment  
+- Reduce stockouts through automated low-stock identification  
+- Offer a simple, intuitive UI for non-technical users  
+- Demonstrate strong Python, SQL, and dashboard development skills  
 
 ---
 
-## 🛠️ Tech Stack
+## 3. 👥 Target Users
 
-| Layer | Technology |
-|------|------------|
-| Language | Python |
-| UI Framework | Streamlit |
-| Database | MySQL |
-| Data Handling | Pandas |
-| Visualization | Plotly |
-| Backend Connector | mysql-connector-python |
+- Inventory Managers  
+- Supply Chain Analysts  
+- Small Business Owners  
+- Data Analysts / Students (Portfolio Use)  
 
 ---
 
-## 🗄️ Database Schema (High Level)
+## 4. 🧩 Functional Requirements
 
-### Tables Used
-- `suppliers`
-- `products`
-- `stock_entries`
-- `categories`
+### 4.1 Dashboard Metrics
+The system must display the following key metrics:
+- Total Suppliers  
+- Total Products  
+- Total Categories Dealing  
+- Total Sales Value (Last 3 Months)  
+- Total Restock Value (Last 3 Months)  
+- Number of Products Needing Reorder  
 
-### Example Fields
-- `product_id`, `product_name`, `category`, `price`
-- `supplier_id`, `supplier_name`, `email`, `phone`
-- `change_quantity`, `change_type`, `entry_date`
-- `min_stock_level`
+### 4.2 Supplier Management
+- Display supplier contact details  
+- Show supplier name, city, email, and phone number  
+
+### 4.3 Product & Stock Monitoring
+- Display product-wise stock quantity  
+- Show minimum stock threshold  
+- Map products to suppliers  
+- Highlight low-stock products  
+
+### 4.4 Operational Tasks (UI Driven)
+The user must be able to:
+- Add new products  
+- Assign category, supplier, price, and stock quantity  
+- Place reorder entries  
+- Receive stock updates  
+- View product and stock history  
 
 ---
 
-## 📂 Project Structure
+## 5. ⚙️ Non-Functional Requirements
 
-DA-python-driven-database-ui-SQL/
+- Responsive and user-friendly UI  
+- Secure database connection  
+- Optimized SQL queries for fast performance  
+- Scalable structure for future enhancements  
+- Error handling for invalid inputs  
 
-│
-├── app.py # Streamlit application
+---
 
-├── database.sql # SQL schema & sample data
+## 6. 🛠️ Technical Requirements
 
-├── requirements.txt # Project dependencies
+### Tech Stack
+- **Programming Language:** Python  
+- **UI Framework:** Streamlit  
+- **Database:** MySQL  
+- **Data Handling:** Pandas  
+- **Visualization:** Plotly  
+- **Database Connector:** mysql-connector-python  
 
-├── README.md # Project documentation
+### Database Tables
+- `suppliers`  
+- `products`  
+- `categories`  
+- `stock_entries`  
 
-└── assets/ # Images & screenshots
+---
 
-## 📈 Learning Outcomes
+## 7. 🔄 User Flow
 
+1. User launches the Streamlit application  
+2. Dashboard loads real-time inventory metrics  
+3. User views supplier and product details  
+4. User performs operational tasks (add product, reorder, receive stock)  
+5. Database updates instantly  
+6. Dashboard reflects updated values  
+
+---
+
+## 8. 📈 Success Metrics
+
+- Accurate real-time dashboard metrics  
+- Correct identification of low-stock products  
+- Smooth execution of CRUD operations  
+- Positive user experience with minimal learning curve  
+
+---
+
+## 9. 🔮 Future Enhancements
+
+- Role-based user authentication  
+- Automated reorder alerts (Email/SMS)  
+- Report export (CSV / PDF)  
+- Cloud database integration  
+- Deployment on Streamlit Cloud or AWS  
+
+---
+
+## 10. 💼 Resume & Learning Value
+
+### Learning Outcomes
 - Python–SQL integration  
 - Real-time dashboard development  
 - SQL analytics & query optimization  
 - Inventory management logic  
 - Business-focused data visualization  
 
----
-
-## 💼 Resume Value
-
-This project demonstrates:
-
+### Resume Value
 - End-to-end data application development  
 - Strong SQL & database skills  
 - Python-driven UI design  
 - Inventory & supply chain analytics  
-- Real-world business problem solving
+- Real-world business problem solving  
 
-## 👤 Author
+---
+
+## 11. 👤 Author
 
 **Gautam Keshri**  
 Data Analyst | Python | SQL | Streamlit  
 
 ⭐ If you like this project, don’t forget to star the repository!
-
