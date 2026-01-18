@@ -85,6 +85,7 @@ The dashboard is designed for inventory managers and business users to monitor s
 ## 📂 Project Structure
 
 DA-python-driven-database-ui-SQL/
+
 │
 ├── app.py # Streamlit application
 
@@ -95,3 +96,29 @@ DA-python-driven-database-ui-SQL/
 ├── README.md # Project documentation
 
 └── assets/ # Images & screenshots
+
+📈 Learning Outcomes
+
+Python–SQL integration
+
+Real-time dashboard development
+
+SQL analytics & query optimization
+
+Inventory management logic
+
+Business-focused data visualization
+
+💼 Resume Value
+
+This project demonstrates:
+
+End-to-end data application development
+
+Strong SQL & database skills
+
+Python-driven UI design
+
+Inventory & supply chain analytics
+
+Real-world business problem solving
