@@ -115,4 +115,12 @@ This project demonstrates:
 - Strong SQL & database skills  
 - Python-driven UI design  
 - Inventory & supply chain analytics  
-- Real-world business problem solving  
+- Real-world business problem solving
+
+## 👤 Author
+
+**Gautam Keshri**  
+Data Analyst | Python | SQL | Streamlit  
+
+⭐ If you like this project, don’t forget to star the repository!
+
